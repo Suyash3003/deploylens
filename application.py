@@ -4,7 +4,7 @@ from flask import Flask, render_template_string
 
 application = Flask(__name__)
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 @application.route("/")
 def home():
@@ -62,7 +62,7 @@ def home():
     <body>
         <h1>DeployLens</h1>
         <p class="subtitle">
-            Application Deployment Dashboard
+            Automated Cloud Deployment Dashboard
         </p>
 
         <span class="badge">{{ env }}</span>
